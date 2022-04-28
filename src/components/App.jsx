@@ -6,10 +6,15 @@ import Contact3 from "./Contact3";
 function App() {
   return (
     <div>
-      <h1 className="heading">My Favourite Contacts:</h1>
-      <Contact1 />
-      <Contact2 />
-      <Contact3 />
+      <div>
+        <h1 className="heading">My Favourite Contacts:</h1>
+        <Contact1 />
+        <Contact2 />
+        <Contact3 />
+      </div>
+      <div className="footer">
+        <p>&#169; zakaria-akash 2022</p>
+      </div>
     </div>
   );
 }
