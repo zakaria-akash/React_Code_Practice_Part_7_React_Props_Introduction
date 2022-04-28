@@ -6,7 +6,7 @@ import Contact3 from "./Contact3";
 function App() {
   return (
     <div>
-      <h1>My Contacts:</h1>
+      <h1 className="heading">My Favourite Contacts:</h1>
       <Contact1 />
       <Contact2 />
       <Contact3 />
